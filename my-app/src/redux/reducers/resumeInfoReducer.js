@@ -21,8 +21,11 @@ const initialState = {
     }
 }
 
+
 const resumeInfoReducer = (state = initialState, action) => {
     switch (action.type) {
+        case "setInfo":
+            return {...state, inforesume:action.payload}
         default:
             return state;
     }

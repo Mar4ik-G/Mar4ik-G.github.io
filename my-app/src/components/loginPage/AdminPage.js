@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from 'react';
-import {useSelector} from "react-redux";
 import Tab from "./Tab";
 import {addInfo, deleteInfo, getInfo} from "../../firebase/firebaseAction";
 import ButtonSignUp from "../mainPage/button/Button";
